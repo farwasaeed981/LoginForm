@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to right, rgb(223, 158, 185), rgb(235, 123, 169),rgb(199, 65, 127));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+    text-align: center;
+    color: rgb(204, 211, 218);
+}
+.container{
+    width: 35rem; 
+    margin: auto;
+    background-color: rgba(14, 61, 38, 0.582);
+    border-radius: 40px;
+    border: 1px solid rgb(7, 27, 11);
+    color: whitesmoke;
+    padding: 20px 25px;
+}
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 10px;
+    display: inline-table;
+    box-sizing: border-box;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.forgotpsd{
+    float: right;
+}
+button{
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+    padding: 8px;
+    margin: 30px;
+    border: 1px solid rgb(233, 241, 235);
+}
+
+
